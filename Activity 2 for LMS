@@ -1,0 +1,9 @@
+Actvity 2 for LMS
+
+driver.get("https://alchemy.hguy.co/lms")
+String heading = String (driver.findElement(By.xpath("//*[@id="uagb-infobox-74cd79b6-b855-4e72-81bc-e70591de1896"]")))
+if (heading.matches(“Learn from Industry Experts”))
+  System.out.print("Matched")
+else
+  System.out.print("Header Not Matched")
+driver.quit()
