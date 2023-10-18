@@ -3,5 +3,7 @@ String homePageTitle = driver.getTitle()
 
 String title  = "Alchemy LMS – An LMS Application"
 
-Assert.assertTrue(homePageTitle.equalsIgnoreCase(title),"Page title not matched")
+if (Assert.assertTrue(homePageTitle.equalsIgnoreCase(title))
+  System.out.print("Page title matched")
 driver.quit()
+
