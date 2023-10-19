@@ -1,0 +1,2 @@
+
+driver.findElement(By.xpath("//div[@class='ld-course-list-items row']/following-sibling::h3[2]"))
